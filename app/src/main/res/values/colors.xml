@@ -1,0 +1,40 @@
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#FF6200EE</color>
+    <color name="colorPrimaryDark">#FF3700B3</color>
+    <color name="colorAccent">#FF03DAC5</color>
+
+    <!-- Semantic Colors -->
+    <color name="colorError">#FF0000</color>
+    <color name="colorSuccess">#FF4CAF50</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#FF000000</color>
+    <color name="textSecondary">#FF757575</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFFFF</color>
+    <color name="backgroundLight">#FFFAFAFA</color>
+
+    <!-- Misc Colors -->
+    <color name="bounding_box_color">#234567</color>
+    <color name="transparent">#DDFFFFFF</color>
+
+    <!-- Additional Colors -->
+    <color name="blue">#FF0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_500">#FF018786</color>
+    <color name="teal_700">#FF00695C</color>
+    <color name="lavender">#8692f7</color>
+
+
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFFFF</color>
+
+
+
+</resources>

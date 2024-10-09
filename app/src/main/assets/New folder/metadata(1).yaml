@@ -1,0 +1,18 @@
+description: Ultralytics YOLO11n model trained on /kaggle/working/Ready_to_dataset-2/output.yaml
+author: Ultralytics
+date: '2024-10-07T09:12:04.602141'
+version: 8.3.6
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Auto
+  1: Bike
+  2: Bus
+  3: Car
+  4: Number_plate

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainHomeActivity">
+
+    <!-- Title TextView with enhanced styling -->
+<TextView
+android:id="@+id/textView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="24dp"
+android:text="Main Home"
+android:textStyle="bold"
+android:textSize="36sp"
+android:textColor="@color/black"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Image Picker Button -->
+<Button
+android:id="@+id/btnImagepicker"
+android:layout_width="0dp"
+    android:layout_height="50dp"
+    android:layout_marginTop="16dp"
+    android:background="@drawable/button_background"
+    android:text="Image Picker"
+    android:textColor="@color/white"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/textView"
+    app:layout_constraintHorizontal_bias="0.5"
+    android:drawableStart="@drawable/imagepicker_ic"
+    android:drawablePadding="8dp" />
+
+    <!-- Embedded Youtube Button -->
+<Button
+android:id="@+id/btnYoutube"
+android:layout_width="0dp"
+android:layout_height="50dp"
+android:layout_marginTop="12dp"
+android:background="@drawable/button_background"
+android:text="Embedded Youtube"
+android:textColor="@color/white"
+android:textSize="16sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/btnImagepicker"
+android:drawableStart="@drawable/youtube_svg"
+android:drawablePadding="8dp" />
+
+    <!-- Real-time Detection Button -->
+<Button
+android:id="@+id/btnDetection"
+android:layout_width="0dp"
+android:layout_height="50dp"
+android:layout_marginTop="12dp"
+android:background="@drawable/button_background"
+android:text="Realtime Detection"
+android:textColor="@color/white"
+android:textSize="16sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/btnYoutube"
+android:drawableStart="@drawable/vegetable"
+android:drawablePadding="8dp" />
+
+    <!-- Dropdown Button -->
+<Button
+android:id="@+id/btnDropdown"
+android:layout_width="0dp"
+android:layout_height="50dp"
+android:layout_marginTop="12dp"
+android:background="@drawable/button_background"
+android:text="Dropdown"
+android:textColor="@color/white"
+android:textSize="16sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/btnDetection"
+
+android:drawablePadding="8dp" />
+
+    <!-- Map Button -->
+<Button
+android:id="@+id/btnMap"
+android:layout_width="0dp"
+android:layout_height="50dp"
+android:layout_marginTop="12dp"
+android:background="@drawable/button_background"
+android:text="Map"
+android:textColor="@color/white"
+android:textSize="16sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/btnDropdown"
+
+android:drawablePadding="8dp" />
+
+    <!-- Date Button -->
+<Button
+android:id="@+id/btnDate"
+android:layout_width="0dp"
+android:layout_height="50dp"
+android:layout_marginTop="12dp"
+android:background="@drawable/button_background"
+android:text="Date"
+android:textColor="@color/white"
+android:textSize="16sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@id/btnMap"
+
+android:drawablePadding="8dp" />
+
+    <!-- Account or Password Button -->
+<Button
+android:id="@+id/btnAcc"
+android:layout_width="0dp"
+android:layout_height="50dp"
+android:layout_marginTop="12dp"
+android:background="@drawable/button_background"
+android:text="Account or Password"
+android:textColor="@color/white"
+android:textSize="16sp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintTop_toBottomOf="@id/btnDate"
+
+android:drawablePadding="8dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

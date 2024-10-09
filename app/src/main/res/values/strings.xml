@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YOLOv8 TfLite</string>
+    <string name="default_web_client_id">AIzaSyBRYQixo2WNeZG2IYamGY2PpPUPhNLrfNw.apps.googleusercontent.com</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="image_title">image_title</string>
+</resources>

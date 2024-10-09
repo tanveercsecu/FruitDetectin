@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "891304423429",
+    "project_id": "fruit-detection-25e70",
+    "storage_bucket": "fruit-detection-25e70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891304423429:android:1de00bf7548172791dac6c",
+        "android_client_info": {
+          "package_name": "com.surendramaran.fruitdetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIjx2otkjYgRH5IMiV5dP9Td24j_faqBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
